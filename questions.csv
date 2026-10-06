@@ -1,0 +1,13 @@
+question,optionA,optionB,optionC,optionD,answer,explanation
+在 p5.js 中哪一個函式在程式一啟動時只會執行一次？,draw(),setup(),preload(),createCanvas(),B,"setup() 函式會在程式啟動時執行且僅執行一次，常用於初始化畫布與變數。"
+想要在 p5.js 畫布中繪製一個圓形或正圓應該使用哪個函式？,rect(),circle(),triangle(),line(),B,"circle() 可直接繪製正圓，ellipse() 則可用於橢圓。"
+JavaScript 中宣告一個不能被重新賦值的變數關鍵字是什麼？,var,let,const,static,C,"const 用來宣告常數（不可被重新賦值），let 則可用於可變變數。"
+在網頁技術中負責定義內容結構與骨架的是哪一個？,HTML,CSS,JavaScript,SQL,A,"HTML 負責內容骨架，CSS 負責外觀樣式，JavaScript 負責動態行為。"
+若陣列為 arr = [10, 20, 30]，在 JavaScript 中 arr[2] 的值是多少？,10,20,30,undefined,C,"JavaScript 陣列索引由 0 開始，arr[0]=10、arr[1]=20、arr[2]=30。"
+p5.js 中負責以每秒約 60 次頻率持續重複執行的核心函式是？,loop(),update(),render(),draw(),D,"draw() 函式會依據 frameRate 持續重複執行，實現動態動畫效果。"
+CSS 中想要讓元素文字變成粗體應該使用哪個屬性？,font-weight,font-style,text-bold,font-size,A,"font-weight 用於設定字體粗細（如 bold、700 等）。"
+在 p5.js 中想要取得目前滑鼠的水平座標應該讀取哪個內建變數？,mouseY,mouseX,cursorX,pointerX,B,"mouseX 與 mouseY 分別儲存滑鼠在畫布中的水平與垂直座標。"
+JavaScript 中判斷兩個值「數值與型別皆相等」的嚴格比較運算子是？,==,===,=,!=,B,"=== 是嚴格相等比較運算子，不會進行自動型別轉換。"
+在網頁中若想在點擊按鈕時觸發 JavaScript 事件應使用哪個屬性？,onhover,onload,onclick,onpress,C,"onclick 事件屬性用於監聽使用者的滑鼠點擊動作。"
+p5.js 中要讓繪製形狀沒有外框線應該呼叫哪個函式？,noStroke(),noFill(),clearStroke(),borderNone(),A,"noStroke() 可停用形狀的邊框線繪製，noFill() 則是停用填色。"
+在 JavaScript 中想要將文字轉換為整數可以使用下列哪個函式？,parseInt(),toString(),toFixed(),Math.round(),A,"parseInt() 可將字串解析並轉換為整數值。"
